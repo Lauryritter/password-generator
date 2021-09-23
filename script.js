@@ -64,3 +64,6 @@ function getSymbol() {
     var passUppercase = ""; {
         passUppercase = confirm("Click OK to confirm uppercase characters.")
     }
+
+
+    
