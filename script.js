@@ -92,8 +92,10 @@ function generatePassword() {
 
     //loop random characters
 
-    for (var i = passLength; i< length; i++) 
-    writePassword = ranPassword + minimumChar[Math.floor(math.random() * minimumChar.length)]
-
-    return ranPassword;
-  }
+    for (var i = 0; i < passLength.Length; i++) 
+    var ranPassword = "";
+    while (passLength < 129)
+      { 
+        ranPassword = ranPassword + minimumChar[(minimumChar.passLength)];
+      }
+    }   
